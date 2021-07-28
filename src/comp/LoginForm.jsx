@@ -22,7 +22,7 @@ const Modal = () => {
       window.location.reload();
       setError('');
     } catch (err) {
-      setError('Incorrect credentials.');
+      setError('Login Id Password does not match,Try again');
     }
   };
 
